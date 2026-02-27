@@ -1,64 +1,196 @@
-# Development-of-AI-Driven-Code-Reviewer
-SynnccIT | AI-Powered Cloud IDE
-SynnccIT is a modern, modular, and AI-driven Integrated Development Environment (IDE) built for the next generation of developers. It combines a sleek, responsive frontend with a distributed backend architecture to provide powerful coding, testing, and AI assistant capabilities.
 
-Demo Video Link:
-https://youtu.be/6MdZ4L3TBNQ
 
-Deployment Link:
-https://synncc-it.vercel.app/
+# 🚀 SynnccIT | AI-Powered Cloud IDE
 
-🚀 Key Features
-AI Agent Integration: Built-in AI assistant to help with code generation, terminal command translation, and planning.
-Cross-Platform Terminal: Real-time WebSocket-based terminal that works seamlessly on Windows (cmd/powershell) and Unix/macOS (bash/zsh).
-Interactive File Explorer: Full file system management with native file system access support.
-Modern Code Editor: Syntax highlighting and multi-file editing capabilities.
-Testing & Simulation: Dedicated backend services for running test cases, simulations, and flowcharting.
-Rich Aesthetics: Premium UI built with React, Tailwind CSS, and shadcn/ui.
-🛠️ Technology Stack
-Frontend
-Framework: React 18 with TypeScript
-Styling: Tailwind CSS, shadcn/ui, Radix UI
-Build Tool: Vite
-Terminal: xterm.js
-Backend
-Framework: Python 3.10+ & FastAPI
-AI: Google Generative AI (Gemini Flash 1.5)
-Utilities: asyncio, PTY (Unix), watchfiles
-📂 Project Structure
+**SynnccIT** is a next-generation **AI-driven Cloud Integrated Development Environment (IDE)** designed to streamline coding, testing, and collaboration.
+It combines a **modern frontend**, **distributed micro-backend architecture**, and an **intelligent AI agent** to deliver a seamless developer experience across platforms.
+
+🔗 **Live Demo:** [https://synncc-it.vercel.app/](https://synncc-it.vercel.app/)
+🎥 **Demo Video:** [https://youtu.be/6MdZ4L3TBNQ](https://youtu.be/6MdZ4L3TBNQ)
+
+---
+
+# ✨ Overview
+
+SynnccIT empowers developers with:
+
+* ⚡ Real-time cloud coding environment
+* 🤖 AI-powered development assistance
+* 💻 Cross-platform terminal execution
+* 📂 Interactive file system management
+* 🧪 Integrated testing & simulation services
+* 🎨 Premium modern UI
+
+The platform follows a **modular microservice architecture**, enabling scalability, flexibility, and independent service deployment.
+
+---
+
+# 🚀 Key Features
+
+## 🤖 AI Agent Integration
+
+* Code generation & optimization
+* Terminal command translation
+* Planning & debugging assistance
+* Natural language development workflow
+
+## 💻 Cross-Platform Terminal
+
+* WebSocket-based real-time terminal
+* Windows support (cmd / PowerShell)
+* Unix/macOS support (bash / zsh)
+
+## 📂 Interactive File Explorer
+
+* Full project file system navigation
+* File creation, editing, deletion
+* Native file system access support
+
+## 📝 Modern Code Editor
+
+* Syntax highlighting
+* Multi-file editing
+* Smooth developer experience
+
+## 🧪 Testing & Simulation Engine
+
+* Automated test execution
+* Flowchart simulation
+* Code evaluation services
+
+## 📊 Status Monitoring Service
+
+* Backend service health monitoring
+* System status tracking
+
+## 🎨 Premium UI/UX
+
+* Responsive modern design
+* Tailwind + shadcn component system
+* Dark-mode friendly architecture
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+* **Framework:** React 18 + TypeScript
+* **Styling:** Tailwind CSS, shadcn/ui, Radix UI
+* **Build Tool:** Vite
+* **Terminal Engine:** xterm.js
+
+## Backend
+
+* **Framework:** Python 3.10+ with FastAPI
+* **AI Engine:** Google Generative AI (Gemini Flash 1.5)
+* **Async Tools:** asyncio
+* **Terminal Utilities:** PTY (Unix)
+* **File Watching:** watchfiles
+
+---
+
+# 🏗️ Architecture
+
+The platform follows a **distributed microservice architecture**:
+
+```
 SynnccIT/
-├── src/                        # Frontend React Application
-├── DeveloperPage_Backend/      # Core IDE Backend (File System, Terminal)
+├── src/                        # Frontend React App
+├── DeveloperPage_Backend/      # Core IDE Backend (File System + Terminal)
 ├── AgentPage_Backend/          # AI Agent Service
-├── TestingPage_Backend/        # Testing & Evaluation Service
-└── StatusPage_Backend/         # Monitoring Service
-🚥 Getting Started
-Prerequisites
-Node.js (v18 or later)
-Python (v3.10 or later)
-Google/Gemini API Key (Optional, for AI features)
-Installation
-Clone the repository
+├── TestingPage_Backend/        # Testing & Simulation Engine
+└── StatusPage_Backend/         # Monitoring & Health Service
+```
 
+---
+
+# 🚥 Getting Started
+
+## ✅ Prerequisites
+
+* Node.js ≥ 18
+* Python ≥ 3.10
+* Gemini API Key (optional for AI features)
+
+---
+
+## 📥 Installation
+
+### 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/yourusername/SynnccIT.git
 cd SynnccIT
-Frontend Setup
+```
 
+### 2️⃣ Frontend Setup
+
+```bash
 npm install
-Backend Setup Each backend service has its own requirements. For the core IDE features:
+```
 
+### 3️⃣ Backend Setup (Core IDE)
+
+```bash
 cd DeveloperPage_Backend
 pip install -r requirements.txt
-Running the Application
-Start the Frontend
+```
 
+---
+
+## ▶️ Running the Application
+
+### Start Frontend
+
+```bash
 npm run dev
-Start the Backend
+```
 
+### Start Backend
+
+```bash
 cd DeveloperPage_Backend
 uvicorn app:app --host 127.0.0.1 --port 8000 --reload
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+```
 
-📄 License
-This project is licensed under the MIT License.
+---
+
+# 🔐 Environment Variables (Optional)
+
+Create a `.env` file:
+
+```
+GEMINI_API_KEY=your_api_key
+```
+
+---
+
+# 📈 Future Enhancements
+
+* Real-time collaborative coding
+* Containerized execution sandbox
+* Plugin marketplace
+* GitHub integration
+* AI code review & refactoring engine
+* Multi-language runtime support
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome 🎉
+
+1. Fork the repo
+2. Create feature branch
+3. Commit changes
+4. Submit Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
